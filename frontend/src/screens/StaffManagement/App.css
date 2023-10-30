@@ -1,0 +1,113 @@
+.App {
+	text-align: center;
+  }
+  
+  .App-logo {
+	height: 40vmin;
+	pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+	  animation: App-logo-spin infinite 20s linear;
+	}
+  }
+  
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+  }
+  
+  .container{
+	width: 100vw;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #7ff79d4f;
+	/* background-image: url('./bg.png'); */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+  }
+  
+  .sub-Container{ 
+	width: 95%;
+	z-index: 0;
+	height: fit-content;
+	display: flex;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+	margin: 1%;
+	flex-direction: row; 
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.527); 
+	backdrop-filter: blur(5px);
+	border-radius: 10px;
+  }
+  .side-navbar{
+	width: 25%;
+	height: 100%;
+	/* background-color: #7ff79d4f; */
+   /* background-image: url('./bg.png'); */
+   	background-position: left;
+	border-radius: 10px 0px 0px 10px;
+	backdrop-filter: blur(5px);
+  }
+  .top-navbar{
+	width: 100%;
+	height: 8%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f3f3f377;
+	border-radius: 0px 10px 0px 0px;
+	backdrop-filter: blur(5px);
+	border-bottom: 1px solid #ffffffb9;
+  }
+  .main-body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+  }
+  .App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+  }
+  .main-content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+  }
+  .App-link {
+	color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
+  }
+  

@@ -1,0 +1,128 @@
+/* Common styles for both pages */
+.container {
+  margin: auto;
+  padding: 20px;
+  max-width: fit-content;
+}
+
+.add_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backBtn {
+  background-color: #545F71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.backBtn:hover {
+  background-color: #5AB7A6;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #5AB7A6;
+  color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Form styles */
+.create {
+  margin-top: 20px;
+}
+
+.create h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.create label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.create input[type="text"],
+.create input[type="date"],
+.create select,
+.create input[type="tel"],
+.create input[type="number"],
+.create input[type="password"]
+{
+  width: 1000px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ 
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create input[type="search"]{
+  width: 500px;
+  height: 37px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create select {
+  height: 40px;
+}
+
+.formBtn {
+  background-color: #5AB7A6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.formBtn:hover {
+  background-color: #5AB7A6;
+}
+
+

@@ -1,0 +1,121 @@
+.body-container{
+    z-index: 2;
+    overflow: hidden;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(253, 251, 251, 0.911);
+    padding: 10px 20px;
+}
+
+.page-image{
+    width: 100%;
+    height: 20%;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(../assets/payroll.jpg);
+    background-position: center;
+}
+.form-container{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.form-left{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.form-right{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.form-input{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.863);
+}
+.input{
+    height:150px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.input-date{
+    height:150px;
+    padding: 15px 12px;
+    border-radius: 5px;
+    border-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.button-row{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn-submit{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(31, 122, 46, 0.795);
+    color: #ffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.btn-cancle{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #da76c7;
+    margin-left: 40px;
+    color: #ffff;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.btn-submit:hover{
+    background-color: #4e9c5b;
+}
+.btn-cancle:hover{
+    background-color: #e48dd9;
+}
+.error-text{
+    color: #8d213c;
+    font-size: 13px; 
+    margin-bottom: 10px;
+}
+
