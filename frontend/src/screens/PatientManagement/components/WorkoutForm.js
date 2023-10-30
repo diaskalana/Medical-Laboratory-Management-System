@@ -49,7 +49,7 @@ const WorkoutForm = () => {
         onSubmit={handleSubmit}
         style={{ display: "flex", flexDirection: "column", width: "300px" }}
       >
-        <h3>Add a New Workout</h3>
+        <h3>Add a New Patient</h3>
 
         <label>Enter Name</label>
         <input
@@ -78,7 +78,7 @@ const WorkoutForm = () => {
           style={{ width: "100%" }}
         />
 
-        <button>Add Workout</button>
+        <button>Add Patient</button>
         {error && <div className="error">{error}</div>}
       </form>
     </div>
