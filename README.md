@@ -1,6 +1,6 @@
 # Online Medical Laboratory Management System
 
-This project is an Online Medical Laboratory Management System developed as part of the 2nd year 2nd semester IT project at SLIIT (Sri Lanka Institute of Information Technology). The system is designed to streamline and digitize the management processes within a medical laboratory.
+The system is designed to streamline and digitize the management processes within a medical laboratory.
 
 ## Description
 
@@ -36,12 +36,12 @@ For detailed instructions, refer to the `README.md` files in the client and serv
 
 ## Contributors
 
-- Leelananda M.P.D.R.I. (IT21804960)
-- Nawarathne N.S.N. (IT21307126)
-- Dharmadasa P.S.K. (IT21311086)
-- Dias D.D.K.S. (IT21220760)
-- P.A. Sidath Tharana (IT21822094)
-- Vithanarachchi V.A.K.D. (IT21027338)
-- Pathirana M.P.S.A. (IT21817458)
-- Rajakaruna R.M.L.A. (IT20039240)
+- Leelananda M.P.D.R.I. 
+- Nawarathne N.S.N. 
+- Dharmadasa P.S.K.
+- Dias D.D.K.S.
+- P.A. Sidath Tharana 
+- Vithanarachchi V.A.K.D. 
+- Pathirana M.P.S.A. 
+- Rajakaruna R.M.L.A. 
 
